@@ -1,0 +1,11 @@
+//引入库
+module.exports={
+    dataType:require('./lib/node/dataType'),//判断传入的数据类型，并返回一个字符串
+    clearJsonNull:require('./lib/node/clearJsonNull'),//清理字符串的空值
+    stringToNumberArr:require('./lib/node/stringToNumberArr'),//把数字字符串数组转成数组
+    mkdir:require('./lib/node/mkdir'),//创建目录
+    strBol:require('./lib/node/strBol'),//字符串boolean转boolean
+    arrIsNum:require('./lib/node/arrIsNum'),//数组的指定位置是不是数字
+    regExpArr:require('./lib/node/regExpArr'),//返回哪个数组元素出现在字符串中，并返回数组的下标
+    float:require('./lib/node/float'),////取多少位小数
+}

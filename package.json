@@ -1,0 +1,25 @@
+{
+  "name": "tool-lib",
+  "version": "0.0.4",
+  "description": "Common tools of JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DS0818/tool-lib.git"
+  },
+  "keywords": [
+    "js",
+    "tool",
+    "lib",
+    "node"
+  ],
+  "author": "ds0818",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DS0818/tool-lib/issues"
+  },
+  "homepage": "https://github.com/DS0818/tool-lib#readme"
+}
