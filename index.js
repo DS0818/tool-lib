@@ -1,5 +1,6 @@
 //引入库
 module.exports={
+    cep:require('./cep'),//cep
     dataType:require('./lib/node/dataType'),//判断传入的数据类型，并返回一个字符串
     clearJsonNull:require('./lib/node/clearJsonNull'),//清理字符串的空值
     stringToNumberArr:require('./lib/node/stringToNumberArr'),//把数字字符串数组转成数组
