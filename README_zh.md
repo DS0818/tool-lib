@@ -32,6 +32,6 @@ npm i tool-lib
         * [option]默认是1，例如：`_tool.float(3.25335,2)`//3.25
         *   如果参数是'0'那么就使用后面补0；例如:`_tool.float(3.25,4,0)`//3.2500
 * 返回最接近值的索引
-`_tool.near(arr,val)`
+`_tool.nearIndex(arr,val)`
     *   返回 `index`
-        * 例如：`let arr=[[3.56,4,5,2.25,8]];arr[await _tool.near(arr,1)]`//2.25
+        * 例如：`let arr=[[3.56,4,5,2.25,8]];arr[await _tool.nearIndex(arr,1)]`//2.25

@@ -37,6 +37,6 @@ npm i tool-lib
         * [option]The default is '1'，example：`_tool.float(3.25335,2)`//3.25
         * If the parameter is'0', then use the following complement'0'；example:`_tool.float(3.25,4,0)`//3.2500
 * Returns the index of the closest value
-`_tool.near(arr,val)`
+`_tool.nearIndex(arr,val)`
     *   return `index`
-        * example:`let arr=[[3.56,4,5,2.25,8]];arr[await _tool.near(arr,1)]`//2.25
+        * example:`let arr=[[3.56,4,5,2.25,8]];arr[await _tool.nearIndex(arr,1)]`//2.25
