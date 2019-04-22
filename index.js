@@ -9,5 +9,5 @@ module.exports={
     arrIsNum:require('./lib/node/arrIsNum'),//数组的指定位置是不是数字
     regExpArr:require('./lib/node/regExpArr'),//返回哪个数组元素出现在字符串中，并返回数组的下标
     float:require('./lib/node/float'),////取多少位小数
-    nearIndex:nearIndex('./lib/node/nearIndex'),//返回最接近值的索引
+    nearIndex:require('./lib/node/nearIndex'),//返回最接近值的索引
 }
