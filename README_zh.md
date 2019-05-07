@@ -35,3 +35,6 @@ npm i tool-lib
 `_tool.nearIndex(arr,val)`
     *   返回 `index`
         * 例如：`let arr=[[3.56,4,5,2.25,8]];arr[await _tool.nearIndex(arr,1)]`//2.25
+* 比较json里的值，如果匹配返回true
+`_tool.compareJson(json,val)`
+    *   如果匹配返回 `true`

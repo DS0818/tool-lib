@@ -9,4 +9,5 @@ module.exports={
     regExpArr:require('./lib/node/regExpArr'),//返回哪个数组元素出现在字符串中，并返回数组的下标
     float:require('./lib/node/float'),////取多少位小数
     nearIndex:require('./lib/node/nearIndex'),//返回最接近值的索引
+    compareJson:require('./lib/node/compareJson'),//比较json里的值，如果匹配返回true
 }

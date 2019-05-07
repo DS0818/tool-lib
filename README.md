@@ -40,3 +40,6 @@ npm i tool-lib
 `_tool.nearIndex(arr,val)`
     *   return `index`
         * example:`let arr=[[3.56,4,5,2.25,8]];arr[await _tool.nearIndex(arr,1)]`//2.25
+* Compare the values in json, and return true if matched
+`_tool.compareJson(json,val)`
+    *   If the match returns `true`
