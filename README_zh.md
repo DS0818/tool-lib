@@ -38,3 +38,8 @@ npm i tool-lib
 * 比较json里的值，如果匹配返回true
 `_tool.compareJson(json,val)`
     *   如果匹配返回 `true`
+* 本机的硬件信息
+`_tool.localHardwareInformation`
+`const info=_tool.localHardwareInformation`
+    *   `info.ipv4` {ip,mac,netmask,cidr}
+    *   `info.ipv6` {ip,mac,netmask,cidr}

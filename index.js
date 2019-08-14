@@ -10,4 +10,5 @@ module.exports={
     float:require('./lib/node/float'),////取多少位小数
     nearIndex:require('./lib/node/nearIndex'),//返回最接近值的索引
     compareJson:require('./lib/node/compareJson'),//比较json里的值，如果匹配返回true
+    localHardwareInformation:require('./lib/node/localHardwareInformation'),//本机硬件信息
 }

@@ -43,3 +43,8 @@ npm i tool-lib
 * Compare the values in json, and return true if matched
 `_tool.compareJson(json,val)`
     *   If the match returns `true`
+* Hardware information of this machine
+`_tool.localHardwareInformation`
+`const info=_tool.localHardwareInformation`
+    *   `info.ipv4` {ip,mac,netmask,cidr}
+    *   `info.ipv6` {ip,mac,netmask,cidr}
