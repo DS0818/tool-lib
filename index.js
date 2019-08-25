@@ -11,4 +11,6 @@ module.exports={
     nearIndex:require('./lib/node/nearIndex'),//返回最接近值的索引
     compareJson:require('./lib/node/compareJson'),//比较json里的值，如果匹配返回true
     localHardwareInformation:require('./lib/node/localHardwareInformation'),//本机硬件信息
+    isEmptyObject:require('./lib/node/isEmptyObject'),//对象是不是空
+    Object:require('./lib/node/Object'),//对象
 }
